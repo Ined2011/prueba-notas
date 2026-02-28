@@ -51,3 +51,33 @@ def mostrar_estudiantes():
         for nombre in estudiantes:
             print("-", nombre)
 
+def main():
+    while True:
+        print("\nMenú:")
+        print("1. Registrar ingreso de estudiante")
+        print("2. Registrar nota")
+        print("3. Ver promedio de un estudiante")
+        print("4. Mostrar lista de estudiantes")
+        print("5. Salir")
+
+        opcion = input("Seleccione una opción: ")
+
+        if opcion == "1":
+            registrar_ingreso()
+        elif opcion == "2":
+            registrar_nota()
+        elif opcion == "3":
+            ver_promedio()
+        elif opcion == "4":
+            mostrar_estudiantes()
+        elif opcion == "5":
+            print("Saliendo del programa.")
+            break
+        else:
+            print("Opción no válida. Por favor, intente nuevamente.")
+
+
+if __name__ == "__main__":
+    main()  
+
+    
