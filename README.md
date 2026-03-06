@@ -40,3 +40,7 @@ Las notas válidas oscilan entre **0.0 y 5.0**. Si ingresa una nota fuera de est
 - Los datos se almacenan en un diccionario durante la ejecución del programa.
 - El promedio se calcula con dos decimales de precisión.
 - Validación de entrada para garantizar valores numéricos correctos.
+
+## Clonar el repositorio
+
+ git clone https://github.com/Ined2011/prueba-notas.git
